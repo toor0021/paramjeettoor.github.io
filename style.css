@@ -1,0 +1,655 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+HTML5 display-role reset for older browsers article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+/*----------- MOBILE VIEW------------------*/
+
+    @import url(https://fonts.googleapis.com/css?family=lato);
+
+body {
+    
+    font-family: "lato", arial, monospace, sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+header {
+    background-image: url("https://thumbs.gfycat.com/PositiveIncredibleEgret-mobile.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 4.5rem;
+    font-size: 2rem;
+    color: gainsboro;
+    justify-content: center;
+}
+
+abbr {
+    color: blue;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+
+.summary {
+    background-image: url(https://www.pixeden.com/media/k2/galleries/131/004-subtle-light-pattern-background-texture.jpg);
+    color: firebrick;
+    text-align: center;
+    padding: 1em 5%;
+    margin-top: 10px;
+}
+
+.summary p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.summary p + p {
+    font-weight: bold;
+    margin-top: 1rem;
+    text-decoration: underline;
+    color: red;
+}
+
+.summary a {
+    color: darkblue;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.summary a:hover {
+    color: darkmagenta;
+}
+
+.preamble {
+    font-family: times;
+    padding: 1rem;
+    background-color: antiquewhite;
+    color: darkred;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 2.5rem;
+    margin-top: 10px;
+}
+
+.preamble h3 {
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.preamble h3:hover{
+    color:mediumvioletred;
+}
+
+.explanation {
+    background-image: url(https://www.pixeden.com/media/k2/galleries/131/004-subtle-light-pattern-background-texture.jpg);
+    margin-top: 15px;
+}
+
+.explanation h3 {
+    font-family: times;
+    font-size: 2rem;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.explanation h3:hover{
+    color:mediumvioletred;
+}
+
+.explanation p {
+    color: black;
+    font-size: 20px;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+.participation {
+    margin-top: 15px;
+}
+
+.participation h3 {
+    font-family: times;
+    font-size: 2rem;
+    color: firebrick;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.participation h3:hover {
+    color: blue;
+}
+
+.participation p {
+    font-size: 20px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.benefits {
+    background-color: red;
+}
+
+.benefits h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.benefits p {
+    font-size: 20px;
+    line-height: 2.5rem;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.benefits h3:hover {
+    color: darkblue;
+}
+
+
+.requirements {
+    padding: 2rem;
+}
+
+.requirements h3 {
+    font-size: 2rem;
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.requirements p {
+    font-size: 20px;
+    line-height: 2.5rem;
+    color: firebrick;
+    text-align: justify;
+}
+
+.requirements h3:hover {
+    color: blue;
+}
+
+.requirements abbr {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 250px;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    line-height: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+.sidebar {
+    display: grid;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.select,
+.archives,
+.resources {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.zen-faq,
+.css-resources,
+abbr {
+    text-transform: uppercase;
+}
+
+.select:hover{
+     color:green;
+}
+.archives:hover{
+     color:green;
+}
+.resources:hover{
+    color:green;
+}
+
+
+
+/*_____________________________________Tablet View__________________________________________________________________*/
+
+@media screen and (min-width: 50rem) {
+
+    body {
+
+        font-family: "lato", arial, monospace, sans-serif;
+        font-size: 2rem;
+        margin: 1rem;   
+    }
+
+    header {
+        background-image: url("https://data.whicdn.com/images/54443149/original.jpg");
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+        color: white;
+          text-shadow: 5px 5px 5px pink;
+    }
+
+    h2 {
+        font-size: 4rem;
+        color: white;
+    }
+
+    .summary p {
+        font-size: 1.5rem;
+        margin: 0 auto;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .preamble p {
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .explanation p {
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .participation p {
+        line-height: 3rem;
+        text-align: center;
+
+    }
+
+    .benefits {
+        background-image: linear-gradient(to right, indigo, orange, green, violet);
+        height: 300px;
+        text-align: center;
+    }
+
+    .benefits p {
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .benefits abbr {
+        color: red;
+    }
+
+    .benefits p {
+        line-height: 4rem;
+    }
+
+    .requirements p {
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .sidebar {
+        display: grid;
+        margin-top: 20px;
+        background-color: bisque;
+        text-align: center;
+        color: red;
+        padding: 20px;
+        line-height: 3rem;
+    }
+    
+    .design-name {
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        color: green;   
+    }
+
+    .designer-name {
+        display: flex;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        line-height: 9px;
+    }
+
+    .designer-name {
+        margin-bottom: 30px;
+    }
+    
+    .designer-name:hover{
+        color:navy;
+    }
+
+    .select,
+    .archives,
+    .resources {
+        color: red;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        padding: 10px;
+        text-decoration: underline;
+    }
+
+    .next,
+    .viewall {
+        display: grid;
+        font-size: 20px;
+    }
+
+    .view-css,
+    .css-resources,
+    .zen-faq,
+    .zen-submit,
+    .zen-translations {
+        display: grid;
+        font-size: 20px;     
+    }
+    
+    footer {
+        background-color: lightpink;
+        border: 8px solid transparent;
+        padding: 8px;
+        border-image: url("https://data.whicdn.com/images/54443149/original.jpg") 80 round;
+
+    }
+    }
+
+
+
+/*_____________________________________Desktop  View__________________________________________________________________*/
+
+@media only screen and (min-width:80rem) {
+    header {
+        background-image: url("https://graffitiwallpaper.com/pics/listings/300_wide.jpg");
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        flex-direction: column;
+        height: 800px;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    h1 {
+        font-size: 7rem;
+        text-shadow: 6px 6px 6px red;
+    }
+
+    
+    h2 {
+        font-size: 6rem;
+    }
+
+    .preamble p {
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .explanation p {
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .participation p {
+        line-height: 4rem;
+    }
+
+    .benefits {
+         background-image:  linear-gradient(to right,  orange,violet);
+        height: 300px;
+        text-align: center;
+    }
+
+    .benefits h3 {
+        color: black;
+    }
+
+    .benefits p {
+        line-height: 3rem;
+        text-align: center;
+        color: white;
+    }
+
+    .benefits abbr {
+        color: blue;
+    }
+
+    .benefits p {
+        line-height: 4rem;
+    }
+
+    .requirements p {
+        line-height: 3rem;
+        text-align: center;
+        color: firebrick;
+    }
+
+    .design-name {
+        display: inline-grid;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        color: green;
+    }
+
+    .designer-name {
+        display: inline-grid;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        line-height: 10px;
+    }
+
+    footer {
+        background-color:black;
+        height: 350px;
+    }
+
+    .sidebar {
+        display: grid;
+        grid-template-columns: 40% 33% 33%;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    footer{
+        background-color:black;
+        
+    }
+}
